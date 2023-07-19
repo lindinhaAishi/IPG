@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>IPG</title>
+
+<body>
+    <header>
+        <h1>Índices Poluentes Regionais</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <div class="center">
+        <select name="list" id="campusSelect">
+            <option value="campus1">Campus Marabá Industrial</option>
+            <option value="campus2">Campus Belém</option>
+            <option value="campus3">Campus Tucuruí</option>
+            <option value="campus4">Campus Santarém</option>
+        </select>
+    </div>
+    <div class="center">
+        <input type="submit" value="Escolher" onclick="redirectToSelectedCampus()" />
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
