@@ -195,3 +195,11 @@ p {
     margin-top: 100px;
     text-align: center;
 }
+
+.container {
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    margin: 50px auto;
+  }
